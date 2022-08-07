@@ -1,0 +1,45 @@
+.myProjects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 5em;
+    padding: 40px;
+}
+
+.grid-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(auto-fit, minmax(300px, 1fr)); */
+    grid-gap: 30px;
+    padding: 20px;
+    place-items: center;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: #FEE3EC;
+    border-radius: 20px;
+	transition-duration: 0.25s;
+    width: 300px;
+    min-height: 300px;
+    word-wrap: break-word;
+    word-break: break-word;
+    padding: 20px 20px;
+
+}
+
+.grid-item:hover {
+    background-color: #fee3ec52;
+}
+
+.projects-text {
+    font-size: 2.5em;
+}

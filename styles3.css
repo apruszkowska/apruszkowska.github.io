@@ -1,0 +1,69 @@
+img.avatar-rot {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+	top: 80%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 100%;
+	animation: avatar 10s infinite linear;
+}
+
+@keyframes avatar {
+	0% {
+	  transform: rotate(0deg) translateX(-600px) rotate(0deg);
+		}
+	50%{
+		transform: rotate(180deg) translateX(-600px) rotate(360deg);
+		}	
+
+	100%{
+		transform: rotate(0deg) translateX(-600px) rotate(0deg);	
+	}
+}
+
+p.about {
+    /* position: absolute; */
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* bottom: 20%;
+    left: 35%; */
+    font-size: 2.5em;
+    padding: 20px;
+
+}
+
+div.wrapper3 {
+    height: 80vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+img.contact-logo1 {
+    width: 70px;
+    height: 60px;
+    padding: 5px;
+    transition: ease-out 0.3s;
+    cursor: pointer;
+}
+
+img.contact-logo2 {
+    width: 65px;
+    height: 65px;
+    padding: 5px;
+    transition: ease-out 0.3s;
+    cursor: pointer;
+}
+
+img.contact-logo1:hover {
+    transform: scale(1.3);
+}
+
+img.contact-logo2:hover {
+    transform: scale(1.3);
+}
