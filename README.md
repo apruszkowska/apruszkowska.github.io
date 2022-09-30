@@ -5,6 +5,7 @@
 # AboutMe - simple portfolio
 Simple portfolio created with HTML and CSS. 
 
+If you want to see my project, please click this link! -> https://apruszkowska.github.io/
 
 #
 
